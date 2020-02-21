@@ -1,0 +1,70 @@
+/*GLOBAL*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin';
+    color: #ebebeb;   
+}
+
+h1,
+h2,
+h3{
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*LAYOUT*/
+.wrapper {
+    position: relative;
+    width: 968px;
+    margin: auto;
+}
+
+/*LIST-SOCIAL*/
+
+.list-social {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.list-social {
+    margin-left: 20px;
+}
+
+/*BANNER*/
+
+.banner {
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner h2 {
+    position: absolute;
+    bottom: 140px;
+    left: 52px;
+    padding: 20px;
+    background: rgba(41, 41, 41, 0.5);
+}
