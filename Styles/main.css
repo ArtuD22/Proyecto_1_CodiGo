@@ -146,3 +146,26 @@ a {
     font-size: 28px;
 }
 
+/* PORTAFOLIO*/
+
+.portafolio {
+    background: #27a9dd;
+    padding: 34px;
+    text-align: center;
+}
+
+.portafolio h2 {
+    margin-bottom: 56px;
+}
+
+.portafolio .item {
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolio img {
+    margin: 0 6px 12px;
+}
+
