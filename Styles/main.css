@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Libre Franklin';
-    color: #ebebeb;   
+    color: #ffffff;   
 }
 
 h1,
@@ -67,4 +67,50 @@ a {
     left: 52px;
     padding: 20px;
     background: rgba(41, 41, 41, 0.5);
+}
+/*skills*/
+.skills {
+    padding: 34px;
+    background: #383838;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.skills .percentage {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px 30px;
+}
+
+.skills .bar-title {
+    margin-bottom: 18px;
+    width: 50%;
+}
+
+.skills .bar-title:nth-child(odd) {
+    padding-right: 20px;
+}
+
+.skills .bar-title:nth-child(even) {
+    padding-left: 20px;
+}
+
+.skills .bar-title h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills .bar-title .bar {
+    height: 17px;
+    width: 100%;
+    background: white;
+}
+
+.skills .bar-title. .bar div {
+    background: black;
+    width: 50%;
+    height: 100%;
 }
