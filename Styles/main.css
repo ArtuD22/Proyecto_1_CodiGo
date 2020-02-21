@@ -114,3 +114,35 @@ a {
     width: 50%;
     height: 100%;
 }
+
+/*services*/
+.services {
+    background: yellowgreen;
+    padding: 34px;
+    text-align: center;
+}
+
+.services img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.services h2 {
+    margin-top: unset;
+    margin-bottom: 20px;
+}
+
+.services .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .items .item {
+    width: 33.33%;
+    margin-bottom: 10px;
+}
+
+.services h3 {
+    font-size: 28px;
+}
+
