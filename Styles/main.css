@@ -168,4 +168,25 @@ a {
 .portafolio img {
     margin: 0 6px 12px;
 }
+/*CLIENTES*/
+.clientes {
+    padding: 34px 34px 96px;
+    background: rebeccapurple;
+    text-align: center;
+}
+
+.clientes h2 {
+    margin-bottom: 22px;
+}
+
+.clientes .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clientes img {
+    margin: 00 11px;
+}
+
 
